@@ -1,0 +1,11 @@
+# Local config with personal paths — use config.example.json as a template
+config.json
+
+# Python
+__pycache__/
+*.py[cod]
+
+# PyInstaller build artifacts
+build/
+dist/
+*.spec

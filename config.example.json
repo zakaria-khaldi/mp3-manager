@@ -1,0 +1,13 @@
+{
+  "all_dir": "/path/to/music/All",
+  "current_dir": "/path/to/music/Current",
+  "temp_dir": "/path/to/music/Temp",
+  "usb_dir": "/path/to/usb",
+  "albums_dir": "/path/to/music/Albums",
+  "prefixes": [
+    "A: Example Genre",
+    "B: Another Genre",
+    " BA: A Sub-Category",
+    "X: Album"
+  ]
+}
