@@ -290,18 +290,22 @@ def main():
             if action == "Edit Metadata":
                 clear_output()
                 print("1. all_dir")
-                print("2. temp_dir")
+                print("2. current_dir")
+                print("3. temp_dir")
                 directory = int(input("\nChoose directory: "))
 
                 if directory == 1:
                     directory = all_dir
                 
                 if directory == 2:
+                    directory = current_dir
+
+                if directory == 3:
                     directory = temp_dir
 
                 while True:
                         files = []  
-                        for file in os.scandir(dir):
+                        for file in os.scandir(directory):
                             files.append(os.path.join(directory, os.path.basename(file)))
                         
                         clear_output()
